@@ -30,6 +30,7 @@
 
 		<script>
 			function toggleList(listId) {
+				const list = document.getElementById(listId);
 				if (list.style.display === "none" || list.style.display === "") {
 					list.style.display = "block";
 				} else {

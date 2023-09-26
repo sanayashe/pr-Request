@@ -1,16 +1,31 @@
-/* style.css */
-body {
-	font-family: Arial, sans-serif;
-}
-
+/* Additional styles in style.css */
 h1 {
 	color: #333;
+	text-decoration: underline; /* Underline the h1 headings */
 }
 
-ul {
-	list-style-type: square;
-}
-
+ul,
 ol {
-	list-style-type: decimal;
+	padding-left: 20px; /* Add some left padding to lists for indentation */
+	margin-bottom: 20px; /* Add space between lists and other content */
+}
+
+li {
+	font-size: 18px; /* Increase the font size for list items */
+	margin-bottom: 5px; /* Add space between list items */
+	color: #666; /* Change the text color for list items */
+}
+
+button {
+	background-color: #007bff; /* Change the button background color */
+	color: #fff; /* Change the button text color to white */
+	border: none;
+	padding: 10px 20px;
+	cursor: pointer;
+	border-radius: 5px;
+	transition: background-color 0.3s ease; /* Add a smooth transition effect */
+}
+
+button:hover {
+	background-color: #0056b3; /* Change the button color on hover */
 }
