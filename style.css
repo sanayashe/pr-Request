@@ -78,3 +78,29 @@ button[type="submit"] {
 button[type="submit"]:hover {
 	background-color: #0056b3;
 }
+
+.gallery {
+	margin-top: 20px;
+}
+
+.gallery h2 {
+	text-align: center;
+}
+
+.image {
+	margin: 20px;
+	text-align: center;
+}
+
+.image img {
+	max-width: 100%;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.image p {
+	margin-top: 10px;
+	font-style: italic;
+	color: #555;
+}
