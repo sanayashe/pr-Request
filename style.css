@@ -29,7 +29,6 @@ button {
 button:hover {
 	background-color: #0056b3; /* Change the button color on hover */
 }
-
 .contacts {
 	max-width: 600px;
 	margin: 0 auto;
